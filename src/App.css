@@ -1,0 +1,56 @@
+.App{
+  min-height: 100vh
+}
+
+.dark{ background-color: #282c34;
+       color: white}
+
+.light { background-color:whitesmoke;
+         color: #282c34}
+
+.mode{
+  min-height: 200vh;
+  transition-duration: 0.3s;
+  transition-delay: 0.2s;
+}
+
+.heading{
+  font-size: 24px;
+  border-radius: 12px;
+  height: 100px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: auto;
+  max-width: 298px;
+}
+
+.icon{ margin-left: 1%;}
+
+.my-clock{ margin-left: 5%;} 
+
+
+@media (max-width:1000px) {
+
+  .heading{
+    margin: auto auto auto 20px;
+    }
+  }
+
+  @media (max-width:800px) {
+
+    .heading{
+      justify-content: center; 
+      margin: auto auto 20px auto ;
+    }
+
+}
+
+
+
+
+
+
+
+
